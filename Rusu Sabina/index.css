@@ -1,0 +1,13 @@
+h1 {
+text-align: center;
+color: blue;
+}
+p {
+ text-align: justify;
+ margin-left: 1.25rem ;
+}
+img{
+ width: 40%;
+ border-radius: 10%;
+
+}
