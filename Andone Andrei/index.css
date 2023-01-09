@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Kanit&family=Kaushan+Script&family=Lobster+Two&family=Manrope&family=Merienda+One&family=Nunito:ital,wght@0,200;0,300;0,700;0,800;1,400&family=Oswald:wght@300&family=PT+Sans&family=Poppins:wght@300&family=Roboto+Slab:wght@400;500&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*top*/
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0f7dbd;
+    color: whitesmoke;
+}
+
+.logo {
+    font-size: 2.5rem;
+    margin: .8rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    padding: 2rem;
+    display: block;
+    font-family: 'Josefin sans';
+}
+
+.navbar-links li a:hover {
+    color: black;
+}
+
+
+/*top*/
+
+
+/*body*/
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    font-family: 'Lucida Sans';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+}
+
+.subtitle {
+    font-size: 3rem;
+    margin: 30px;
+}
+
+.avengers-content {
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-family: 'Josefin';
+}
+
+img {
+    margin: 15px;
+    border-radius: 40px;
+}
+
+
+/*body*/
